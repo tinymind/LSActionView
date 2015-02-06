@@ -4,7 +4,7 @@ Alternative to UIActionSheet with a block-based API and a customizable look.
 ## Installation
 
 - Add `LSActionView.h` and `LSActionView.h` to your project. 
-- Add `#import "LSActionView.h"` where your want to use.
+- Or use CocoaPods: `pod 'LSActionView'`.
 
 ## Requirements
 
