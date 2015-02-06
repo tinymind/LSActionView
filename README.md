@@ -33,13 +33,27 @@ Requires iOS 4.3 and above.
   
 ```
 
+## Customizable
+
+``` cpp
+
+  @property (strong, nonatomic) UIColor *blankAreaColor;
+  @property (strong, nonatomic) UIColor *containerColor;
+  @property (strong, nonatomic) UIColor *buttonTitleColor;
+  @property (assign, nonatomic) CGFloat buttonFontSize;
+  @property (assign, nonatomic) CGFloat containerMargin;
+  @property (assign, nonatomic) CGFloat buttonIconWidth;
+  @property (assign, nonatomic) CGFloat buttonTitleHeight;
+
+```
+
 ## Examples
 
-### without title
+### Without title
 ![LSActionView Example1](https://github.com/tinymind/LSActionView/raw/master/example1.png)  
 
-### with title
+### With title
 ![LSActionView Example2](https://github.com/tinymind/LSActionView/raw/master/example2.png)  
 
-### landscape
+### Landscape
 ![LSActionView Example3](https://github.com/tinymind/LSActionView/raw/master/example3.png)
